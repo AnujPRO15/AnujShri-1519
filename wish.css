@@ -1,0 +1,143 @@
+@media screen and (max-width: 767px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        /* font-size: 40px; */
+    }
+/* #one{
+    color: red;
+} */
+#two{
+background-image: url(unicorn-bg.png);
+color: rgb(255, 0, 0);
+}
+#three{
+    color: rgb(81, 255, 0);
+}
+#four{
+    color: rgb(255, 140, 0);
+}
+#five{
+    color: rgb(3, 255, 179);
+}
+#six{
+    color: rgb(13, 0, 255);
+}
+#seven{
+    color: rgb(255, 0, 179);
+}
+#txt{
+    font-size: 30px;
+    transition: 0.7s;
+    float: left;
+}
+#txt:hover{
+    font-size: 40px;
+    transition: 0.7s;
+}
+.video{
+    height: 700px;
+    width: 450px;
+    outline: none;
+    border: 10px solid #eaff00; padding: 10px;
+    background-color: pink;
+}
+
+
+}
+
+@media screen and (min-width: 768px) and
+(max-width: 1023px)
+{
+    *{
+        margin: 0;
+        padding: 0;
+        /* font-size: 40px; */
+    }
+/* #one{
+    color: red;
+} */
+#two{
+background-image: url(unicorn-bg.png);
+color: rgb(255, 0, 0);
+}
+#three{
+    color: rgb(81, 255, 0);
+}
+#four{
+    color: rgb(255, 140, 0);
+}
+#five{
+    color: rgb(3, 255, 179);
+}
+#six{
+    color: rgb(13, 0, 255);
+}
+#seven{
+    color: rgb(255, 0, 179);
+}
+#txt{
+    font-size: 30px;
+    transition: 0.7s;
+    float: left;
+}
+#txt:hover{
+    font-size: 40px;
+    transition: 0.7s;
+}
+.video{
+    height: 700px;
+    width: 450px;
+    outline: none;
+    border: 10px solid #eaff00; padding: 10px;
+    background-color: pink;
+}
+}
+
+@media screen and (min-width: 1024px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        /* font-size: 40px; */
+    }
+/* #one{
+    color: red;
+} */
+#two{
+    color: rgb(255, 0, 0);
+}
+#three{
+    color: rgb(81, 255, 0);
+}
+#four{
+    color: rgb(255, 140, 0);
+}
+#five{
+    color: rgb(3, 255, 179);
+}
+#six{
+    color: rgb(13, 0, 255);
+}
+#seven{
+    color: rgb(255, 0, 179);
+}
+#txt{
+    margin-top: 350px;
+    font-size: 25px;
+    transition: 0.7s;
+    float: left;
+}
+#txt:hover{
+    transition: 0.7s;
+}
+.video{
+    height: 700px;
+    width: 450px;
+    outline: none;
+    border: 10px solid #eaff00; padding: 10px;
+    background-color: pink;
+}
+    
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  overflow: hidden;
+}
+
+#confetti-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.confetti {
+  position: absolute;
+  top: 0;
+  font-size: 1.6rem;
+  animation: confetti-fall linear 5s infinite;
+}
+
+@keyframes confetti-fall {
+  0% {
+    transform: translateY(-100%) rotate(0);
+  }
+  100% {
+    transform: translateY(100vh) rotate(180deg);
+  }
+}
+
+     *{
+  font-family: "Sofia", cursive;
+  font-style: normal;
+  font-weight: 600;
+}
+
+        #hello, #anujpro, #codingworld, #website, #thanks, #birthday {
+            text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+</head>
+<body style="
+    background-image: url(bg-3.jfif);">
+    <center>
+
+
+        
+    <div id="confetti-container">
+        <div class="card">
+        </div>
+      </div>
+
+<!-- <div class="cake">
+<center><img src="cake.gif" alt="" height="400px" width="400px"></center>
+</div> -->
+
+        <div id="txt">
+            <div id="two">
+                <br>
+
+                
+                <span id="hello">Every year, you</span>
+                <br>
+                <span id="anujpro">shine Brighter.</span>
+                <br>
+                <span id="codingworld">Happy Birthday to</span>
+                <br>
+                <span id="website">my best friend and</span>
+                <br>
+                <span id="thanks">loving sis.</span>
+                <br>
+                <span id="birthday">Happiest 16<sup>th</sup> Birthday Anvu(🎀Duda🎀)</span>
+            </div>
+        </div>
+    </center>
+
+
+ 
+
+
+    <script>const confettiContainer = document.querySelector('#confetti-container');
+        const showConfetti = () => {
+          const confetti = document.createElement('div');
+          confetti.textContent = '⭐';
+          confetti.classList.add('confetti');
+          confetti.style.left = Math.random() * innerWidth + 'px';
+          confettiContainer.appendChild(confetti);
+        
+          setTimeout(() => {
+            confetti.remove();
+          }, 5000);
+        };
+        
+        setInterval(() => {
+          showConfetti();
+        }, 400);
+        </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
